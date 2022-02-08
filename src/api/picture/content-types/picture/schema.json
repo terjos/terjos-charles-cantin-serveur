@@ -4,7 +4,8 @@
   "info": {
     "singularName": "picture",
     "pluralName": "pictures",
-    "displayName": "photos"
+    "displayName": "photos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,12 +16,12 @@
       "type": "string"
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     },
     "category": {
       "type": "relation",
