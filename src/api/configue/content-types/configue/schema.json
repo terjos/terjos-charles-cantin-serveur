@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "configues",
+  "info": {
+    "singularName": "configue",
+    "pluralName": "configues",
+    "displayName": "configue",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
